@@ -1,7 +1,7 @@
 body 
 {
 	font-family: Arial;
-	background-image: url(image.png);
+	background-image: url(img/image.png);
 }
 
 
@@ -79,12 +79,21 @@ main h1
 table
 {
 	display: block;
+	margin: 1em;
+}
+
+th
+{
+	width: 25%;
+
 }
 th img
 {
-	width: 30%;
+	width: 90%;
 	height: auto;
 	border: 5px solid grey;
+	border-radius: 2.5%;
+	margin-bottom: 2em;
 }
 
 footer
