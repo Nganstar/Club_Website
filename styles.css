@@ -1,8 +1,15 @@
 body 
 {
+	font-family: Arial;
 	background-image: url(image.png);
 }
 
+
+p
+{
+	margin-left: 1em;
+	margin-right: 1em;
+}
 header 
 {
 	margin: 5%;
@@ -44,6 +51,16 @@ li a
 	text-decoration: none;
 }
 
+li a:hover
+{
+	background-color: #111;
+}
+
+.active 
+{
+	background-color: #111;
+}
+
 main 
 {
 	margin: 5%;
@@ -54,8 +71,20 @@ main
 
 main h1
 {
+	margin-left: 0.5em;
 	margin-top: 0;
 	padding-top: 2.5%;
+}
+
+table
+{
+	display: block;
+}
+th img
+{
+	width: 30%;
+	height: auto;
+	border: 5px solid grey;
 }
 
 footer
