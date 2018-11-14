@@ -1,0 +1,22 @@
+body 
+{
+	background-image: url(image.png);
+}
+
+header 
+{
+	margin: 5%;
+	margin-bottom: 0;
+}
+
+main 
+{
+	margin: 5%;
+	margin-top: 0;
+	background-color: white;
+}
+
+main h1
+{
+	margin-top: 0;
+}
