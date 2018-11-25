@@ -1,0 +1,123 @@
+/*DEFAULT STYLING*/
+body 
+{
+	font-family: Arial;
+	background-image: url(img/image.png);
+}
+
+
+p
+{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+header 
+{
+	margin: 5%;
+	margin-bottom: 0;
+}
+
+/*ALL NAV STYLING*/
+nav
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: grey;
+	position: sticky;
+	overflow: hidden;
+	top: 0;
+}
+
+nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+
+nav li
+{
+	float: left;
+}
+
+nav li a
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover
+{
+	background-color: #111;
+}
+
+/*THIS IS THE CLASS OF THE LINK TAG OF THE CURRENTLY SELECTED PAGE*/
+.active 
+{
+	background-color: #111;
+}
+
+/*MAIN STYLING*/
+main 
+{
+	margin: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: white;
+}
+
+main h1
+{
+	margin-left: 0.5em;
+	margin-top: 0;
+	padding-top: 2.5%;
+}
+
+main table
+{
+	display: block;
+	margin: 1em;
+}
+
+main th
+{
+	width: 25%;
+
+}
+main th img
+{
+	width: 90%;
+	height: auto;
+	border: 5px solid grey;
+	border-radius: 2.5%;
+	margin-bottom: 2em;
+}
+
+#bottomP
+{
+	margin-bottom: 0;
+	padding-bottom: 2em;
+}
+
+/*FOOTER STYLING*/
+footer
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	background-color: grey;
+}
+
+footer p
+{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
