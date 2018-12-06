@@ -1,8 +1,8 @@
 /*DEFAULT STYLING*/
 body 
 {
-	font-family: Arial;
-	background-image: url(img/image.png);
+	background-image: url(img/blur.jpg);
+	background-size: cover;
 }
 
 
@@ -13,53 +13,39 @@ p
 }
 header 
 {
-	margin: 5%;
+	margin: 0 5%;
 	margin-bottom: 0;
 }
+
+.display-1
+{
+	color: white;
+	font-weight: 400;
+}
+
 
 /*ALL NAV STYLING*/
 nav
 {
-	margin-left: 5%;
-	margin-right: 5%;
-	background-color: grey;
-	position: sticky;
-	overflow: hidden;
-	top: 0;
+	margin: 0 5%;
 }
 
-nav ul
+li .navitem
 {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	top: 0;
+	padding: 0 20%;
 }
 
-nav li
-{
-	float: left;
-}
-
-nav li a
-{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-nav li a:hover
-{
-	background-color: #111;
-}
+ul .navbar-nav
+ {
+ 	margin: 0;
+ }
 
 /*THIS IS THE CLASS OF THE LINK TAG OF THE CURRENTLY SELECTED PAGE*/
 .active 
 {
 	background-color: #111;
 }
+
 
 /*MAIN STYLING*/
 main 
@@ -72,34 +58,40 @@ main
 
 main h1
 {
-	margin-left: 0.5em;
+	margin: 0 6%;
 	margin-top: 0;
-	padding-top: 2.5%;
+	padding-bottom: 1%;
+	padding-top: 0;
 }
 
-main table
+main img
 {
-	display: block;
-	margin: 1em;
+	object-fit: cover;
+	max-height: 250px;
 }
 
-main th
+.carousel img
 {
-	width: 25%;
-
+	max-height: 300px;
 }
-main th img
+.cardTable
 {
-	width: 90%;
-	height: auto;
-	border: 5px solid grey;
-	border-radius: 2.5%;
-	margin-bottom: 2em;
+	margin: 0 5%;
 }
 
+.card-deck
+{
+	padding: 2.5%;
+	padding-bottom: 0;
+}
+p
+{
+	padding: 0 5%;
+}
 #bottomP
 {
 	margin-bottom: 0;
+	padding: 0 5%;
 	padding-bottom: 2em;
 }
 
@@ -111,7 +103,7 @@ footer
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
-	background-color: grey;
+	background-color: #F2A900;
 }
 
 footer p
